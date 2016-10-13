@@ -222,6 +222,17 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
+.btn-linkedin .icon {
+  opacity: 0.6;
+  background: url("../images/2blacktocat.png") 0 0 no-repeat;
+}
+
+.btn-facebook .icon {
+  opacity: 0.6;
+  background: url("../images/3blacktocat.png") 0 0 no-repeat;
+}
+
+
 /* Links
    a, a:hover, a:visited
 */
