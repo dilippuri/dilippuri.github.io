@@ -1,0 +1,27 @@
+body {
+	background-color:#000;
+	font:16px Courier;
+}
+#inspired , #unsupported{
+	color:#FFF;
+	padding-top:20px;
+	font-family:Courier;
+	text-align:center;
+}
+#fox {
+	margin: 0 auto;
+}
+
+#download{
+	color:#FFF;
+	padding-top: 5px;
+	text-align: center;
+}
+a {
+	color:#2A6CA9;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#2C87CC;
+	text-decoration:underline;
+}
