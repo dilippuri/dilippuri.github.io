@@ -9,8 +9,18 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
 	<!-- Place this tag in your head or just before your close body tag. -->
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
-
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="javascripts/main.js" ></script>
+<script>
+function compute(){
+  var file = document.getElementById("file");
+  alert('Selected file: ' + file.files.item(0).name);
+  alert('Selected file: ' + file.files.item(0).size);
+  alert('Selected file: ' + file.files.item(0).type);
+  console.log(file.value);
+  
+}
+</script>
     <title>Dilip Puri</title>
   </head>
 
@@ -40,6 +50,10 @@
 	<img src="http://ghchart.rshah.org/dilippuri" alt="Dilip's Github contribution chart" />
 <!--	<img src="http://ghchart.rshah.org/409ba5/dilippuri" alt="Dilip's Github Chart" />-->
 <br><br>
+<section>
+    <input id="file" type="file" name="file" onchange=compute() />
+</section>
+<br />
 <h2><b>Projects</b></h2>
 	      
 <br><br>
