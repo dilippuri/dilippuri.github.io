@@ -830,6 +830,7 @@ main {
 }
 
 
+
 /**
  * skills 
  */
@@ -867,7 +868,11 @@ main {
   border-radius: inherit;
 }
 
-
+.skill-text {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
 
 
 
@@ -1878,5 +1883,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+  .skill-text { max-width: 700px; }
 
 }
